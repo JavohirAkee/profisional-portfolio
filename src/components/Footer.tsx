@@ -8,17 +8,17 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      href: 'https://github.com/xislatbek',
+      href: 'https://github.com/JavohirAkee',
       icon: Github,
     },
     {
       name: 'LinkedIn',
-      href: 'https://linkedin.com/in/xislatbek',
+      href: 'https://linkedin.com/in/JavohirAkee',
       icon: Linkedin,
     },
     {
       name: 'Email',
-      href: 'mailto:xislatbek@example.com',
+      href: 'mailto:m12562513@example.com',
       icon: Mail,
     },
   ];
@@ -91,11 +91,10 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-600 dark:text-gray-300 text-sm">
-              © {currentYear} Xislatbek Alimov. All rights reserved.
+              © {currentYear} Javoxir Qo'chqorov. All rights reserved.
             </p>
             <div className="flex items-center space-x-1 text-gray-600 dark:text-gray-300 text-sm">
               <span>Made with</span>
-              <Heart size={16} className="text-red-500 fill-current" />
               <span>using React & Tailwind CSS</span>
             </div>
           </div>

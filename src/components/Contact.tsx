@@ -6,22 +6,22 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: 'alimovxislatbek8@gmail.com',
-      href: 'mailto:alimovxislatbek8@gmail.com',
+      value: 'm12562513@gmail.com',
+      href: 'mailto:m12562513@gmail.com',
       color: 'blue'
     },
     {
       icon: <Phone size={24} />,
       title: 'Phone',
-      value: '+998 (93) 800-99-08',
-      href: 'tel:+998938009908',
+      value: '+998 (93) 869-88-78',
+      href: 'tel:+998938698878',
       color: 'teal'
     },
     {
       icon: <Github size={24} />,
       title: 'GitHub',
-      value: 'github.com/Xislatbek851',
-      href: 'https://github.com/Xislatbek851',
+      value: 'github.com/JavohirAkee',
+      href: 'https://github.com/JavohirAkee',
       color: 'gray'
     },
     {
@@ -96,7 +96,7 @@ const Contact = () => {
 
             <div className="grid sm:grid-cols-2 gap-4">
               <a
-                href="mailto:alimovxislatbek8@gmail.com"
+                href="mailto:m12562513@gmail.com"
                 className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-medium hover:from-blue-700 hover:to-blue-800 transition-all duration-200 hover:scale-105 text-center flex items-center justify-center gap-2"
               >
                 <Mail size={20} />
@@ -104,7 +104,7 @@ const Contact = () => {
               </a>
               
               <a
-                href="https://github.com/Xislatbek851"
+                href="https://github.com/JavohirAkee"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-gray-800 to-gray-900 text-white px-8 py-4 rounded-xl font-medium hover:from-gray-900 hover:to-black transition-all duration-200 hover:scale-105 text-center flex items-center justify-center gap-2"

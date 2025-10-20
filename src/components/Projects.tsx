@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExternalLink, Github, Folder, Calendar, Users, Zap } from 'lucide-react';
+import Whitespace from '../img/544_1x_shots_so.png'
 
 const Projects = () => {
   const projects = [
@@ -16,16 +17,15 @@ const Projects = () => {
       githubUrl: '#'
     },
     {
-      title: 'EcoMarket Landing',
+      title: 'Whitespace',
       description: 'A stunning landing page for an eco-friendly marketplace featuring smooth animations, interactive elements, and optimized performance.',
       technologies: ['Next.js', 'Framer Motion', 'Tailwind CSS', 'Vercel'],
       type: 'Website',
       highlights: ['Smooth Animations', 'SEO Optimized', 'Performance'],
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&crop=center',
+      image: Whitespace,
       gradient: 'from-green-500 to-teal-600',
       icon: Users,
-      liveUrl: '#',
-      githubUrl: '#'
+
     },
     {
       title: 'DevPortfolio',

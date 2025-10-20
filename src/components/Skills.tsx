@@ -1,4 +1,3 @@
-import React from 'react';
 import { Code2, Palette, PenTool as Tool, Globe } from 'lucide-react';
 
 const Skills = () => {

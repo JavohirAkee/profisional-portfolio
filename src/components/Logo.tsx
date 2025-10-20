@@ -113,7 +113,7 @@ const Logo: React.FC<LogoProps> = ({
 
   const LogoText = () => (
     <span className={`font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 dark:from-blue-400 dark:via-purple-400 dark:to-pink-400 bg-clip-text text-transparent ${textSizes[size]} ${className}`}>
-      XA
+      
     </span>
   );
 
@@ -122,7 +122,7 @@ const Logo: React.FC<LogoProps> = ({
       <LogoIcon />
       <div className="flex flex-col">
         <span className={`font-bold text-gray-900 dark:text-white ${textSizes[size]}`}>
-          Xislatbek
+          Javoxir
         </span>
         <span className="text-xs text-gray-600 dark:text-gray-400 font-medium -mt-1">
           Developer
