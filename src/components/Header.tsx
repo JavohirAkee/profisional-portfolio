@@ -6,6 +6,7 @@ import Logo from './Logo';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { isDark, toggleDarkMode } = useDarkMode();
+  
 
   const navItems = [
     { href: '#experience', label: 'Experience' },
