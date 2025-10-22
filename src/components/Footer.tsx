@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 import Logo from './Logo';
 
 const Footer = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
     },
     {
       name: 'Email',
-      href: 'mailto:m12562513@example.com',
+      href: 'mailto:m12562513@gmail.com',
       icon: Mail,
     },
   ];
@@ -31,8 +31,8 @@ const Footer = () => {
           <div className="space-y-4">
             <Logo variant="full" size="lg" />
             <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-              Full-stack developer passionate about creating innovative solutions 
-              and building amazing user experiences.
+              Frontend developer passionate about creating innovative solutions 
+              and building amazing user experiences with modern web technologies.
             </p>
           </div>
 
@@ -73,7 +73,7 @@ const Footer = () => {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center justify-center w-10 h-10 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200 group"
+                    className="flex items-center justify-center w-10 h-10 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-all duration-200 group hover:scale-110"
                     aria-label={social.name}
                   >
                     <Icon 

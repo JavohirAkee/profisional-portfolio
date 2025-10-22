@@ -1,6 +1,7 @@
 import React from 'react';
 import { ExternalLink, Github, Folder, Calendar, Users, Zap } from 'lucide-react';
 import Whitespace from '../img/544_1x_shots_so.png'
+import DevLogo from '../img/dev-logo.webp'
 
 const Projects = () => {
   const projects = [
@@ -10,7 +11,7 @@ const Projects = () => {
       technologies: ['React', 'Firebase', 'Tailwind CSS', 'TypeScript'],
       type: 'Web Application',
       highlights: ['Real-time Sync', 'Team Collaboration', 'Drag & Drop'],
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop&crop=center',
+      image: DevLogo,
       gradient: 'from-blue-500 to-purple-600',
       icon: Calendar,
       liveUrl: '#',
@@ -33,7 +34,7 @@ const Projects = () => {
       technologies: ['React', 'Tailwind CSS', 'TypeScript', 'Vite'],
       type: 'Portfolio',
       highlights: ['Dark Mode', 'Responsive', 'Modern Design'],
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&crop=center',
+      image: DevLogo,
       gradient: 'from-purple-500 to-pink-600',
       icon: Zap,
       liveUrl: '#',

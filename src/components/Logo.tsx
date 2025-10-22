@@ -1,4 +1,5 @@
 import React from 'react';
+import DevLogo from '../img/dev-logo.webp';
 
 interface LogoProps {
   className?: string;
@@ -24,91 +25,11 @@ const Logo: React.FC<LogoProps> = ({
   };
 
   const LogoIcon = () => (
-    <svg
-      className={`${sizeClasses[size]} ${className}`}
-      viewBox="0 0 100 100"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      {/* Background Circle with Gradient */}
-      <defs>
-        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#3B82F6" />
-          <stop offset="50%" stopColor="#8B5CF6" />
-          <stop offset="100%" stopColor="#EC4899" />
-        </linearGradient>
-        <linearGradient id="logoGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#60A5FA" />
-          <stop offset="50%" stopColor="#A78BFA" />
-          <stop offset="100%" stopColor="#F472B6" />
-        </linearGradient>
-      </defs>
-      
-      {/* Main Circle */}
-      <circle
-        cx="50"
-        cy="50"
-        r="45"
-        fill="url(#logoGradient)"
-        className="dark:hidden"
-      />
-      <circle
-        cx="50"
-        cy="50"
-        r="45"
-        fill="url(#logoGradientDark)"
-        className="hidden dark:block"
-      />
-      
-      {/* Inner Design - Abstract Code Symbol */}
-      <g transform="translate(25, 25)">
-        {/* Code Brackets */}
-        <path
-          d="M15 10 L5 25 L15 40"
-          stroke="white"
-          strokeWidth="3"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-        />
-        <path
-          d="M35 10 L45 25 L35 40"
-          stroke="white"
-          strokeWidth="3"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          fill="none"
-        />
-        
-        {/* Central Dot */}
-        <circle
-          cx="25"
-          cy="25"
-          r="3"
-          fill="white"
-        />
-        
-        {/* Connecting Lines */}
-        <line
-          x1="18"
-          y1="25"
-          x2="22"
-          y2="25"
-          stroke="white"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-        <line
-          x1="28"
-          y1="25"
-          x2="32"
-          y2="25"
-          stroke="white"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-      </g>
-    </svg>
+    <img
+      src={DevLogo}
+      alt="Javoxir Logo"
+      className={`${sizeClasses[size]} ${className} rounded-full object-cover`}
+    />
   );
 
   const LogoText = () => (

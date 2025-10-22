@@ -30,7 +30,7 @@ const Experience = () => {
               </div>
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2 transition-colors duration-300">
-                  Frontend Developer (Intern)
+                  Frontend Developer
                 </h3>
                 <div className="flex items-center gap-2 text-blue-600 font-semibold mb-2">
                   <Calendar size={18} />

@@ -5,18 +5,20 @@ const Hero = () => {
     <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <div className="inline-block p-1 mt-24 bg-gradient-to-r  rounded-full mb-3">
-            <div className="w-24 h-24  bg-white dark:bg-gray-800 rounded-full flex items-center justify-center transition-colors duration-300">
-              <img src={Logotype} alt="logo" className='rounded-[50%] w-full h-full '/>
+          <div className="inline-block p-1 mt-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mb-3">
+            <div className="w-24 h-24 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center transition-colors duration-300 shadow-lg">
+              <img src={Logotype} alt="Javoxir Qo'chqorov" className='rounded-full w-full h-full object-cover'/>
             </div>
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
-            Javoxir Qo'chqorov
+            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+              Javoxir Qo'chqorov
+            </span>
           </h1>
           
-          <div className="text-xl sm:text-2xl text-blue-600 font-semibold mb-6">
-            Frontend Developer (Intern)
+          <div className="text-xl sm:text-2xl text-blue-600 dark:text-blue-400 font-semibold mb-6">
+            Frontend Developer
           </div>
           
           <div className="flex items-center justify-center gap-2 text-gray-600 dark:text-gray-300 mb-8 transition-colors duration-300">
@@ -38,7 +40,7 @@ const Hero = () => {
               href="https://github.com/JavohirAkee"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gray-900 dark:bg-gray-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-600 transition-all duration-200 hover:scale-105"
+              className="inline-flex items-center gap-2 bg-gray-900 dark:bg-gray-700 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-600 btn-hover"
             >
               <Github size={20} />
               GitHub
@@ -47,7 +49,7 @@ const Hero = () => {
             
             <a
               href="mailto:m12562513@gmail.com"
-              className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-all duration-200 hover:scale-105"
+              className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 btn-hover"
             >
               <Mail size={20} />
               Email Me
@@ -55,7 +57,7 @@ const Hero = () => {
             
             <a
               href="tel:+998938698878"
-              className="inline-flex items-center gap-2 bg-teal-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-700 transition-all duration-200 hover:scale-105"
+              className="inline-flex items-center gap-2 bg-teal-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-700 btn-hover"
             >
               <Phone size={20} />
               Call Me
